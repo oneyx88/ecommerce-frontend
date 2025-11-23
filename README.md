@@ -2,7 +2,7 @@
 
 ## 🎬 Demo
 
-![Demo](./display.mov)
+![Demo](./demo.gif)
 
 **Overview**
 - A production-ready e-commerce frontend built with React + Vite, covering both user-facing and admin features.
