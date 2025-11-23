@@ -122,11 +122,6 @@
 - Ensure CORS and credentials are enabled; app relies on cookies for session.
 - Required endpoints include: `/users/login`, `/users/refresh`, `/users/logout`, `/products`, `/categories`, `/orders`, etc.
 
-**Troubleshooting**
-- Stripe initialization error: set `VITE_STRIPE_PUBLISHABLE_KEY` (test mode is fine). The UI displays a helpful message when missing.
-- 401 loops: only non-auth endpoints refresh; failures lead to logout and redirect to `/login`.
-- Broken images: verify `VITE_BACK_END_URL`; relative images are resolved to `${VITE_BACK_END_URL}/images/...`.
-- Test payments: use Stripe test card `4242 4242 4242 4242` with any future expiry and any CVC/ZIP in test mode.
 
 **Scripts**
 - `npm run dev`: start development server
