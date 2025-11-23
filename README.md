@@ -1,6 +1,8 @@
 # E‑Shop Frontend (React + Vite + Redux)
 
-- Demo placeholder: add screenshots or a live URL when available.
+## 🎬 Demo
+
+![Demo](./display.mov)
 
 **Overview**
 - A production-ready e-commerce frontend built with React + Vite, covering both user-facing and admin features.
